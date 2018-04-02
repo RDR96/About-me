@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rdr.rodrigocorvera.aboutme.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+
+                app:srcCompat="@drawable/back" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="#FF000000"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="20dp"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:src="@drawable/user_icon" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rodrigo Enrique Corvera Díaz"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ingeniería en sistemas"
+            android:textSize="18sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="20px"
+            android:layout_height="2dip"
+            android:background="#000000"
+            />
+
+        <ImageView
+            android:id="@+id/imageVie"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:src="@drawable/face_icon"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://www.facebook.com/rodrigo.c.diaz1"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="20px"
+            android:layout_height="2dip"
+            android:background="#000000"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_marginTop="20px"
+            android:layout_gravity="center"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:src="@drawable/giticon"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RDR96"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="20px"
+            android:layout_height="2dip"
+            android:background="#000000"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:src="@drawable/phone"
+                />
+            <ImageView
+
+                android:layout_gravity="center"
+
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/email"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:textAlignment="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7860-6667"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00231514@uca.edu.sv"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            >
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:text="Powered by: Rodrigo Corvera"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
